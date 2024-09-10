@@ -10,6 +10,8 @@ Uma resposta a essas questões está em uma opção disponibilizada recentemente
 
 # Testar
 Chamar o método get(ExemploAppConfigurationsController), path `AppConfigurations.WebApi\Controllers\AppConfigurations`
+ou
+`https://localhost:5002/v1/appconfigurations`
 
 
 ## Créditos ao @renatogroffe

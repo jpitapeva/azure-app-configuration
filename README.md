@@ -1,4 +1,4 @@
-## Projeto WebApi com dotnet8
+## Projeto WebApi em dotnet8
 
 # Recurso Azure App Configuration
 

@@ -15,12 +15,12 @@ Uma resposta a essas questões está uma opção disponibilizada recentemente no
 
 1- `src/AppConfigurations.WebApi/Controllers/AppConfigurationsController.cs`;
 ```csharp
-ValorTesteConfig = configuration["config"] //config é o nome da chave configurada dentro do portal da azure para o recusrso Azure Configurations. 
+ValorTesteConfig = configuration["config"] //"config" é o nome da chave configurada dentro do portal da azure do recurso Azure Configurations. 
 ```
 
 2- `src/AppConfigurations.WebApi/Program.cs`; </br>
 ```csharp
-refresh.Register("config"); //config é o nome da chave configurada dentro do portal da azure para o recusrso Azure Configurations. 
+refresh.Register("config"); //"config" é o nome da chave configurada dentro do portal da azure do recurso Azure Configurations. 
 ```
 
 ## Testar

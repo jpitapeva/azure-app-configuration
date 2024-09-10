@@ -9,10 +9,9 @@ E se pudéssemos utilizar uma alternativa que simplifique o gerenciamento de con
 Uma resposta a essas questões está em uma opção disponibilizada recentemente no Microsoft Azure: trata-se do App Configuration, serviço que no momento da publicação deste artigo ainda se encontra em Preview. Com suporte a .NET Core/ASP.NET Core, .NET Full/ASP.NET e Java (Spring), essa alternativa oferece ainda a possibilidade de integração via REST API.
 
 # Testar
-Chamar o método get(ExemploAppConfigurationsController), path `AppConfigurations.WebApi\Controllers\AppConfigurations`
-ou
 `https://localhost:5002/v1/appconfigurations`
-
+</br>
+Método get(ExemploAppConfigurationsController), path `AppConfigurations.WebApi\Controllers\AppConfigurations`
 
 ## Créditos ao @renatogroffe
 https://renatogroffe.medium.com/asp-net-core-azure-app-configuration-manipulando-configura%C3%A7%C3%B5es-de-forma-mais-inteligente-52f65fc5fe19

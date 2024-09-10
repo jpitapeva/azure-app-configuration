@@ -11,7 +11,7 @@ Uma resposta a essas questões está em uma opção disponibilizada recentemente
 # Testar
 `https://localhost:5002/v1/appconfigurations`
 </br>
-Método get(ExemploAppConfigurationsController), path `AppConfigurations.WebApi\Controllers\AppConfigurations`
+Método get(ExemploAppConfigurationsController), path `src/AppConfigurations.WebApi/Controllers/AppConfigurationsController.cs`
 
 ## Créditos ao @renatogroffe
 https://renatogroffe.medium.com/asp-net-core-azure-app-configuration-manipulando-configura%C3%A7%C3%B5es-de-forma-mais-inteligente-52f65fc5fe19

@@ -29,7 +29,7 @@ namespace AppConfigurations.WebApi
                         options.Connect(settings["ConnectionStrings:AppConfiguration"])
                             .ConfigureRefresh(refresh =>
                             {
-                                refresh.Register("config");
+                                refresh.Register("config"); //config é o nome da chave configurada dentro do portal da azure para o recusrso Azure Configurations. 
                             });
                     });
                 })

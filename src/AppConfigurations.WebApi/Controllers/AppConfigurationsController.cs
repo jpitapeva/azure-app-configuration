@@ -22,7 +22,7 @@ namespace AppConfigurations.WebApi.Controllers
             {
                 data = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"),
                 ValorReferencia,
-                ValorTesteConfig = configuration["config"] //config é o nome da chave configurada dentro do portal da azure para o recusrso Azure Configurations. 
+                ValorTesteConfig = configuration["config"] //"config" é o nome da chave configurada dentro do portal da azure do recurso Azure Configurations. 
             };
         }
     }

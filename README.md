@@ -13,12 +13,12 @@ Uma resposta a essas questões está uma opção disponibilizada recentemente no
 
 ## Chaves configuradas para esta POC em 2 locais
 
-1- Controller;
+1- `src/AppConfigurations.WebApi/Controllers/AppConfigurationsController.cs`;
 ```csharp
 ValorTesteConfig = configuration["config"] //config é o nome da chave configurada dentro do portal da azure para o recusrso Azure Configurations. 
 ```
 
-2- Classe program; </br>
+2- `src/AppConfigurations.WebApi/Program.cs`; </br>
 ```csharp
 refresh.Register("config"); //config é o nome da chave configurada dentro do portal da azure para o recusrso Azure Configurations. 
 ```

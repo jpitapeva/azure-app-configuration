@@ -6,7 +6,7 @@ Outro ponto importante diz respeito a modificações em configurações. Em muit
 
 E se pudéssemos utilizar uma alternativa que simplifique o gerenciamento de configurações, além de evitar o restart de uma ou mais aplicações caso alguma definição deste tipo precise passar por uma alteração?
 
-Uma resposta a essas questões está em uma opção disponibilizada recentemente no Microsoft Azure: trata-se do App Configuration, serviço que no momento da publicação deste artigo ainda se encontra em Preview. Com suporte a .NET Core/ASP.NET Core, .NET Full/ASP.NET e Java (Spring), essa alternativa oferece ainda a possibilidade de integração via REST API.
+Uma resposta a essas questões está uma opção disponibilizada recentemente no Microsoft Azure: trata-se do App Configuration. Com suporte a .NET Core/ASP.NET Core, .NET Full/ASP.NET e Java (Spring), essa alternativa oferece ainda a possibilidade de integração via REST API.
 
 ## Testar
 Efetuar chamadas GET no link: `https://localhost:5002/v1/appconfigurations`

@@ -8,6 +8,9 @@ E se pudéssemos utilizar uma alternativa que simplifique o gerenciamento de con
 
 Uma resposta a essas questões está uma opção disponibilizada recentemente no Microsoft Azure: trata-se do App Configuration. Com suporte a .NET Core/ASP.NET Core, .NET Full/ASP.NET e Java (Spring), essa alternativa oferece ainda a possibilidade de integração via REST API.
 
+
+## Projeto em WebApi com dotnet8
+
 ## Testar
 Efetuar chamadas GET no link: `https://localhost:5002/v1/appconfigurations`
 </br>

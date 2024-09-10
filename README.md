@@ -25,8 +25,6 @@ refresh.Register("config"); //config é o nome da chave configurada dentro do po
 
 ## Testar
 Efetuar chamadas GET no link: `https://localhost:5002/v1/appconfigurations`
-</br>
-Método get(ExemploAppConfigurationsController), path `src/AppConfigurations.WebApi/Controllers/AppConfigurationsController.cs`
 
 ## Créditos @renatogroffe
 https://renatogroffe.medium.com/asp-net-core-azure-app-configuration-manipulando-configura%C3%A7%C3%B5es-de-forma-mais-inteligente-52f65fc5fe19
